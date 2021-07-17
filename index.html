@@ -5,73 +5,91 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rotimidokun Portfolio</title>
+    <title>Tosin Rotimidokun | Software Engineer</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <div class="bg-con">
-        <img class="picture" src="https://i.ibb.co/Kyk2z90/portfolio-picture.png" alt="portfolio-picture" >
-
-
-        <div class="main-heading">
-            <h1 class="head-text">
+    <div class="headerContainer">
+        <div class="headerTextContainer">
+            <h1 class="h1">
                 <span class="hello"> Hello. </span>
-                <span class="me"> I am Tosin </span>
+                <span class="name"> I am Tosin </span>
             </h1>
+
+            <div>
+                <ul class="topNavigationContainer">
+                    <li class="nav-list"><a href="#aboutContainer">About</a></li>
+                    <li class="nav-list"><a id="portfolio"
+                            href="https://drive.google.com/file/d/1iNTqhcUJtV3gDYc7xY6y1tbzLc_fO-_R/view?usp=sharing"
+                            target="blank">Resume</a>
+                    </li>
+                    <li class="nav-list"><a id="contact" href="#contactContainer">Contact</a></li>
+                </ul>
+            </div>
+
         </div>
 
-        <ul class="nav-con">
-            <li class="nav-list"><a id="about" href="#content1">About</a></li>
-            <li class="nav-list"><a id="portfolio" href="https://github.com/rotimidokun" target="blank">Portfolio</a>
-            </li>
-            <li class="nav-list"><a id="contact" href="#content2">Contact</a></li>
-        </ul>
+        <img src="./Images/profile-pic.jpg" alt="">
 
     </div>
 
+    <section id="aboutContainer">
 
-    <section id="content1">
+        <h3 class="aboutHeaderText"> Meet Tosin </h3>
 
-        <h3 class="meet"> Meet Tosin </h3>
+        <h4>Software Engineer <>
+        </h4>
 
-        <br>
+        <p>I am an excellent resource to have on your team. A <span style="color: red; font-weight:900;">Software
+                Engineer</span> with experience in developing solutions with the MERN stack. </p>
 
-        <h4>Software Engineer == Management Consultant </h4>
+        <p>Prior to software engineering, I spent 4+ years as a management consultant supporting technology companies to
+            grow and
+            be successful. I value empathy and the creative ability to develop solutions that solve real problems with
+            impact across
+            the world.
+        </p>
 
-        <br>
-
-        <p>I am an excellent resource to have on your team and a software engineer with over 2 months of experience in the MERN stack. I value empathy and the creative ability to develop solutions that solve real
-            problems with impact across the world. </p>
-
-        <br>
-
-        <p>Prior to software engineering, I spent 4+ years as a management consultant supporting technology companies to grow and be successful.</p>
+        <p>Looking to be part of Engineering teams in Agile and Innovative Technology companies. Got any exciting
+            opportunities?
+            kindly send me an email via rotimidokun@gmail.com </p>
 
     </section>
 
-    <section>
+    <section class="skills">
+        <h3> Skills </h3>
 
-        <div id="content2">
+        <p>
+            JavaScript, HTML/CSS, React JS,
+            Redux, NodeJS, Express JS,
+            MongoDB, Git,
+            GitHub, PostgreSQL, Trello, Slack, Jira.
+        </p>
 
-            <div class="call">
-                <h3>Reach me:</h3>
-            </div>
 
-            <ul class="nav-con2">
+    </section>
 
-                <li class="nav-list2"><a href="mailto:rotimidokun@gmail.com"> Email Me </a></li>
-                <li class="nav-list2"><a href="https://www.linkedin.com/in/tosin-rotimidokun/" target="blank"> LinkedIn
-                    </a></li>
-                <li class="nav-list2"><a href="https://twitter.com/rotimidokun" target="blank"> Twitter </a></li>
-                <li class="nav-list2"><a href="https://web.facebook.com/Tdoks" target="blank"> Facebook </a></li>
-                <li class="nav-list2"><a href="https://www.instagram.com/rotimidokun/" target="blank"> Instagram</a>
-                </li>
 
-            </ul>
+    <section id="contactContainer">
 
-        </div>
+        <h3 class="contactHeaderText">Reach me:
+        </h3>
+
+        <ul class="contactNavContainer">
+
+            <li class="contactNav"><a href="mailto:rotimidokun@gmail.com"> rotimidokun@gmail.com </a></li>
+            <li class="contactNav"><a href="https://github.com/rotimidokun" target="blank"> GitHub
+                </a></li>
+            <li class="contactNav"><a href="https://www.linkedin.com/in/tosin-rotimidokun/" target="blank"> LinkedIn
+                </a></li>
+            <li class="contactNav"><a href="https://twitter.com/rotimidokun" target="blank"> Twitter </a></li>
+            <li class="contactNav"><a href="https://web.facebook.com/Tdoks" target="blank"> Facebook </a></li>
+            <li class="contactNav"><a href="https://www.instagram.com/rotimidokun/" target="blank"> Instagram</a>
+            </li>
+
+        </ul>
 
     </section>
 
@@ -80,7 +98,5 @@
     </footer>
 
 </body>
-
-
 
 </html>
